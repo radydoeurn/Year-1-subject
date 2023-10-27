@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+  
+}
+.nav-left{
+    align-self: center;
+}
+.nav-right{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding-right: 80px;
+    align-self: center;
+}
+.nav-right p:hover{
+   color: rgb(183, 40, 209);  
+}
+.center{
+    background-image: url(/OMB-AI-Blog-Image_06.08.23-scaled.jpg);
+    height: 550px;
+    padding-top: 100px;
+    padding-left: 100px;
+    color:white;
+    background-position: center;
+    background-size: cover; 
+}
+.center button{
+    background-color: white;
+    width: 300px;
+    margin-top: 30px;
+}
+.center h1{
+    color:white;
+    padding-bottom: 20px;
+}
+.center2{
+    display: flex;
+    background-color: rgb(242, 239, 239);
+     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.group-icon{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+.icon1{
+    background-color: white;
+    width: 300px;
+    height: 200px;   
+}
+.icon2{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+}
+.icon3{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+}
+.icon4{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+}
+.icon1, .icon2, .icon3, .icon4{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    color: rgb(94, 17, 171);
+}
+h2{
+    color: blue;
+}
+.group-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.group-text h2{
+    color: blue;
+}
+button{
+    background-color: green;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+.center3{
+    width: 100%;
+    height: 250px;
+    background-color: white; 
+    padding-top: 50px;
+}
+.top-text{
+    text-align: center;
+}
+.top-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.logo-1{
+    display: flex;
+    gap: 50px;
+}
+.logo-2{
+    display: flex;
+    gap: 50px;
+}
+.center4{
+    height: 300px;
+    background-color: rgb(242, 239, 239);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.center4 h2{
+    text-align: center;
+}
+.group-card-1{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.group-card-2{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.material-icons{
+    color: rgb(14, 144, 144);
+}
+.center5{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.left-text{
+    width: 50%;
+    padding-top: 70px;
+}
+.center5 .material-icons{
+    color: rgb(253, 216, 6);
+}
+.center6{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: rgb(242, 239, 239);
+    padding-bottom: 50px;
+}
+.center7{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.vdo-content{
+    align-self: center;
+}
+.text-content{
+    text-align: center;
+    padding-top: 50px;
+}
+.text-content h2{
+    padding-bottom: 20px;
+}
+.center8{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.703),rgb(16, 232, 175));
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.send-button{
+    align-self: center;
+}
+.center8 h1{
+    color: white;
+    text-align: center;
+}
+.center8 button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.center8 button:nth-child(1){
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding-left: 120px;
+    margin-top: 40px;
+}
+.center8 button:nth-child(2){
+    background: none;
+    border: 1px solid rgb(85, 84, 84);
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.center9{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.left-logo{
+    width: 30%;
+    padding-left: 50px;
+}
+.right-list{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.right-list h3{
+    color: blue;
+}
+@media(max-width:768px){
+    .center2{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+    }
+    .group-icon{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .group-text{
+        width: 100%;
+        text-align: center;
+        padding-top: 40px;
+        word-break: keep-all;
+    }
+    button{
+        align-self: center;
+        margin-top: 40px;
+    }
+    .center3{
+        height: 350px;
+    }
+    .top-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .center4{
+        height: 350px;
+    }
+    .group-card-1{
+        text-align: center;
+    }
+    .group-card-2{
+        text-align: center;
+    }  
+}
+@media(max-width:600px){
+    .nav-right{
+        gap: 20px;
+    }
+    .center2{
+        height: 160vh;
+    }
+    .center3{
+        height: 80vh;
+    }
+    .top-box{
+        align-self: center;
+        flex-direction: column;
+    }
+    .logo-1{
+        width: 100px;
+    }
+    .logo-2{
+        width: 100px;
+        padding-left: 50px;
+    }
+}

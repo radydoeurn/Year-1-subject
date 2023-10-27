@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1.2fr;
+    text-align: center;
+
+}
+aside{
+    background-color: antiquewhite;
+    display: grid;
+    
+}
+.nav-top{
+    background-color: chocolate;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.nav-center{
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    margin: 10px;
+}
+.nav-bottom{
+    background-color: plum;
+    border-radius: 25px;
+    margin: 10px;
+}
+main{
+    background-color: teal;
+    gap: 20px;
+    
+}
+.center-top{
+    background-color: cornflowerblue;
+    min-height: 25vh;
+    border-radius: 25px;
+    margin: 20px;
+}
+.center-middle{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    margin: 20px;
+    gap: 10px;
+}
+.middle{
+    background-color: cornsilk;
+    min-height: 55vh;
+    border-radius: 25px;
+    /* width: 80%; */
+}
+.below{
+    background-color: lightcoral;
+    min-height: 55vh;
+    border-radius: 25px;
+    /* width:0%; */
+}
+.center-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+   margin: 20px;
+   margin-top: 60px;
+    
+}
+.left-bottom{
+    background-color: darkorange;
+    /* min-height: 10vh; */
+    border-radius: 25px;
+}
+.middle-bottom{
+    background-color: darkgoldenrod;
+    /* min-height: 10vh; */
+    border-radius: 25px;
+}
+.right-bottom{
+    background-color: mediumspringgreen;
+    min-height: 15vh;
+    border-radius: 25px;
+}
+.sideright{
+    gap: 10px;
+    text-align: center;
+}
+.first-right{
+    background-color: lightsalmon;
+    min-height: 25vh;
+    border-radius: 25px;
+
+}
+.second-right{
+    background-color: lightskyblue;
+    min-height: 25vh;
+    border-radius: 25px;
+    margin: 5px;
+}
+.third-right{
+    background-color: thistle;
+    min-height: 25vh;
+    border-radius: 25px;
+
+}
+.last-right{
+    background-color: seagreen;
+    min-height: 25vh;
+    border-radius: 25px;
+ 
+}

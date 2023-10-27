@@ -1,0 +1,18 @@
+nav{
+    @include centered;
+    height: 10vh;
+    background-color: $sub-color2;
+    justify-content: space-between;
+    padding: 0px 50px;
+    border-bottom: 2px solid $main-color;
+    .logo{
+        @include centered;
+        width: 55px;
+        height: 55px;
+        background-color: $main-color;
+        color: $sub-color1;
+        border-radius: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}

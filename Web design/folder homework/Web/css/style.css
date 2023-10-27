@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    height: 500px;
+}
+.nav-left{
+    background-color: antiquewhite;
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+}
+.box{
+    margin: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: aqua;
+    
+
+}
+.box2{
+    background-color: darkkhaki;
+}
+.box3{
+    background-color: indianred;
+}
+.nav-center{
+    background-color: teal;
+    flex: 1.5;
+}
+.nav-right{
+    background-color: dodgerblue;
+    flex: 0.5;
+}

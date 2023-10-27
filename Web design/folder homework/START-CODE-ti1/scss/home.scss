@@ -1,0 +1,20 @@
+@import"main";
+@import"./compenents/card";
+
+.main-container {
+    height: 90vh;
+    display: flex;
+
+    aside {
+        @include centered;
+        flex: 1;
+        background-color: $sub-color2;
+        @include startdard-text-color2;
+    }
+    main {
+        flex: 4;
+    }
+    .table{
+        border: 1px;
+    }
+}
